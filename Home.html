@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="aboutme.css">
+    <link rel="stylesheet" href="skills.css">
+    <link rel="stylesheet" href="project.css">
+    <link rel="stylesheet" href="conact.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Responsive Navbar</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-brand">Mohit's Portfolio</div>
+        <div class="navbar-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <ul class="navbar-links" id="navbar-links">
+            <li><a  href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact Me">Contact</a></li>
+        </ul>
+    </nav>
+
+
+
+    <!-- home---- -->
+
+    <div id="home" class="container">
+        <div class="content">
+            <h1>Hi, My name is <span class="highlight">Mohit</span></h1>
+            <p>and I am a passionate</p>
+              <!-- Element to contain animated typing -->
+  <span id="element"></span>
+            <div class="buttons">
+                <button onclick="downloadResume()">Download Resume</button>
+                <button onclick="visitGithub()">Visit Github</button>
+            </div>
+        </div>
+        <div class="image">
+            <img src="IMG_3364.JPG" alt="Profile Image">
+        </div>
+    </div>
+
+    <!-- About-->
+ 
+    <div id="about" class="containe">
+        <h2>Get To Know More</h2>
+        <h1>About Me</h1>
+        <div class="profile">
+            <img src="IMG_3364.JPG" alt="Profile Picture" class="profile-pic">
+        </div>
+            <div class="info">
+                <div class="card">
+                    <h3>Experience</h3>
+                    <p>Front End Developer Inter - IBMskillbuild CSBOX 06/2024 - 08/2024
+                    <p>Frontend Development</p>
+                </div>
+                <div class="card">
+                    <h3>Education</h3>
+                    <p>B.Sc. Bachelors Degree</p>
+                    <p>M.Sc. Masters Degree</p>
+                </div>
+            </div>
+        <p class="description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore omnis sapiente hic odio quod voluptates alias nobis excepturi perspiciatis natus voluptatem exercitationem voluptas quibusdam deserunt impedit libero rerum adipisci, quos nisi velit sunt! Quibusdam magni laborum perspiciatis, eaque quos nobis?
+        </p>
+    </div>
+
+
+
+
+    <!-- skills -->
+
+
+    <div id="skills" class="container-2">
+        <h1>My Skills</h1>
+        <div class="skills">
+            <div class="skill-card">
+                <img src="html.png" alt="HTML Icon">
+                <h3>HTML</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi neque eos possimus sunt hic.</p>
+            </div>
+            <div class="skill-card">
+                <img src="css.png" alt="CSS Icon">
+                <h3>CSS</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi neque eos possimus sunt hic.</p>
+            </div>
+            <div class="skill-card">
+                <img src="javas.png" alt="JavaScript Icon">
+                <h3>JavaScript</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi neque eos possimus sunt hic.</p>
+            </div>
+            <div class="skill-card">
+                <img src="BOOTSTRAP.png" alt="PHP Icon">
+                <h3>PHP</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi neque eos possimus sunt hic.</p>
+            </div>
+            <div class="skill-card">
+                <img src="react.png" alt="MySQL Icon">
+                <h3>MySQL</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi neque eos possimus sunt hic.</p>
+            </div>
+            <div class="skill-card">
+                <img src="jquery.png" alt="Python Icon">
+                <h3>Python</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi neque eos possimus sunt hic.</p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Projects -->
+
+<div id="projects">
+
+    <header >
+        <h1>Browse My Recent</h1>
+        <h2>Projects</h2>
+    </header>
+    <div  class="project-container">
+        <div class="project-card">
+            <img src="kenny-eliason-lDJAl5-_AKI-unsplash.jpg" alt="Project One">
+            <h3>Project One</h3>
+            <div class="buttons">
+                <button>GitHub</button>
+                <button>Live Demo</button>
+            </div>
+        </div>
+        <div class="project-card">
+            <img src="goodeats-yqr-v4vxUH-pYpA-unsplash.jpg" alt="Project Two">
+            <h3>Project Two</h3>
+            <div class="buttons">
+                <button>GitHub</button>
+                <button>Live Demo</button>
+            </div>
+        </div>
+        <div class="project-card">
+            <img src="toa-heftiba-h4gwcDztBDY-unsplash.jpg" alt="Project Three">
+            <h3>Project Three</h3>
+            <div class="buttons">
+                <button>GitHub</button>
+                <button>Live Demo</button>
+            </div>
+        </div>
+    </div>
+</div>
+    <!-- Contact -->
+
+
+    <div id="contact" class="contact-section">
+        <h2>Get In Touch</h2>
+        <h1>Contact Me</h1>
+        <div class="contact-buttons">
+            <a href="#"> <button onclick="openEmail()"> <i class="fa-solid fa-envelope"></i>kalalmohit003@gmail.com</button></a>  
+            <button onclick="openLinkedIn()"><i class="fa-brands fa-linkedin"></i> LinkedIn</button>
+            <button onclick="openInstagram()">  <i class="fa-brands fa-instagram"></i> Instagram</button>
+            <button onclick="openWhatsApp()"> <i class="fa-brands fa-whatsapp"></i>WhatsApp</button>
+    </div>
+</div>
+
+  
+<!-- footer -->
+ <div class="footer-up">
+
+     <nav>
+         <ul>
+             <li><a href="#home">Home</a></li>
+             <li><a href="#about">About</a></li>
+             <li><a href="#skills">Skills</a></li>
+             <li><a href="#prject">Project</a></li>
+             <li><a href="#contact">Contact Me</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <footer>
+        <p>Copyright © 2024 Mohit Kalal. All Rights Reserved</p>
+    </footer>
+    <script src="nav.js"></script>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+
+ <!-- Setup and start animation! -->
+ <script>
+    var typed = new Typed('#element', {
+      strings: ['Web Develper', 'Graphix'],
+      typeSpeed: 50,
+    });
+  </script>
+
+</body>
+</html>
