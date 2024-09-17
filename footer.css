@@ -2,7 +2,10 @@
     margin: 0;
     padding: 0;
 }
-
+.footer-up{
+    margin-top: 80px;
+    /* height: 200px; */
+}
 
  .footer-up  nav {
     display: flex;
@@ -37,6 +40,7 @@
 }
 
 footer {
+
     text-align: center;
     padding: 20px 0;
     background-color: #0e0e1a;
